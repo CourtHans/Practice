@@ -8,3 +8,6 @@
 
 # Main
 echo "Hello World"
+
+echo "This user is: "
+whomai
