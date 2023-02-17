@@ -7,7 +7,22 @@
 
 
 # Main
-echo "Hello World"
+potato="Courtney's computer"
+echo This is $potato
 
-echo "This user is: "
-whomami
+varCommand=`whoami`
+echo Hello $varCommand, how are you?
+
+varDate=$(date)
+echo The day and \time is $varDate
+
+open_program () {
+   echo Opening your file in a new tab in 3...2...1
+   sleep 3
+   code /home/court/Practice/markdown.md
+}
+
+open_program
+
+
+#End
